@@ -1,6 +1,14 @@
 # Changelog
 
 
+## v1.2
+
+### What's Changed
+
+_(most recent changes are listed on top):_
+- Due date does not show time anymore on the board as well
+
+
 ## v1.1
 
 ### What's Changed

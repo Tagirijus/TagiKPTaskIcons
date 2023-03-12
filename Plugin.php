@@ -14,6 +14,7 @@ class Plugin extends Base
         // Template Override
         //  - Override name should be camelCase e.g. pluginNameExampleCamelCase
         $this->template->setTemplateOverride('task_list/task_icons', 'TagiTaskIcons:task_list/task_icons');
+        $this->template->setTemplateOverride('board/task_footer', 'TagiTaskIcons:board/task_footer');
     }
 
     public function getPluginName()
@@ -35,7 +36,7 @@ class Plugin extends Base
 
     public function getPluginVersion()
     {
-        return '1.1.0';
+        return '1.2.0';
     }
 
     public function getCompatibleVersion()

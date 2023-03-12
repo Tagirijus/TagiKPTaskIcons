@@ -1,6 +1,6 @@
 <?php
 
-namespace Kanboard\Plugin\TagiStartedDateIconChange;
+namespace Kanboard\Plugin\TagiTaskIcons;
 
 use Kanboard\Core\Plugin\Base;
 // use Kanboard\Core\Translator;
@@ -13,14 +13,14 @@ class Plugin extends Base
     {
         // Template Override
         //  - Override name should be camelCase e.g. pluginNameExampleCamelCase
-        $this->template->setTemplateOverride('task_list/task_icons', 'TagiStartedDateIconChange:task_list/task_icons');
+        $this->template->setTemplateOverride('task_list/task_icons', 'TagiTaskIcons:task_list/task_icons');
     }
 
     public function getPluginName()
     {
         // Plugin Name MUST be identical to namespace for Plugin Directory to detect updated versions
         // Do not translate the plugin name here
-        return 'TagiStartedDateIconChange';
+        return 'TagiTaskIcons';
     }
 
     public function getPluginDescription()
@@ -49,6 +49,6 @@ class Plugin extends Base
 
     public function getPluginHomepage()
     {
-        return 'https://github.com/Tagirijus/kanboard-TagiStartedDateIconChange';
+        return 'https://github.com/Tagirijus/kanboard-TagiTaskIcons';
     }
 }

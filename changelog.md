@@ -1,6 +1,15 @@
 # Changelog
 
 
+## v1.1
+
+### What's Changed
+
+_(most recent changes are listed on top):_
+- Name has changed for the plugin
+- Due date does not show time anymore
+
+
 ## v1.0
 
 ### What's Changed

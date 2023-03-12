@@ -1,4 +1,4 @@
-# TagiStartedDateIconChange
+# TagiTaskIcons
 
 #### _Plugin for [Kanboard](https://github.com/fguillot/kanboard "Kanboard - Kanban Project Management Software")_
 

@@ -5,6 +5,14 @@
 This plugin simply changes the `started date` icon from the clock to a play symbol.
 
 
+Screenshots
+-------------
+
+**Task in list**
+
+![TagiTaskIcons task in list](../master/Screenshots/TagiTaskIcons_task_in_list.png)
+
+
 Compatibility
 -------------
 

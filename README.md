@@ -1,4 +1,4 @@
-# TagiKPTaskIcons
+# TaskIcons
 
 #### _Plugin for [Kanboard](https://github.com/fguillot/kanboard "Kanboard - Kanban Project Management Software")_
 
@@ -10,7 +10,7 @@ Screenshots
 
 **Task in list**
 
-![TagiTaskIcons task in list](../master/Screenshots/TagiTaskIcons_task_in_list.png)
+![TaskIcons task in list](../master/Screenshots/TaskIcons_task_in_list.png)
 
 
 Compatibility
@@ -35,7 +35,7 @@ Installation
 ------------
 
 1. Go into Kanboards `plugins/` folder
-2. `git clone https://github.com/Tagirijus/TagiKPTaskIcons`
+2. `git clone https://github.com/Tagirijus/TaskIcons`
 
 
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Kanboard\Plugin\TagiKPTaskIcons;
+namespace Kanboard\Plugin\TaskIcons;
 
 use Kanboard\Core\Plugin\Base;
 // use Kanboard\Core\Translator;
@@ -13,15 +13,15 @@ class Plugin extends Base
     {
         // Template Override
         //  - Override name should be camelCase e.g. pluginNameExampleCamelCase
-        $this->template->setTemplateOverride('task_list/task_icons', 'TagiKPTaskIcons:task_list/task_icons');
-        $this->template->setTemplateOverride('board/task_footer', 'TagiKPTaskIcons:board/task_footer');
+        $this->template->setTemplateOverride('task_list/task_icons', 'TaskIcons:task_list/task_icons');
+        $this->template->setTemplateOverride('board/task_footer', 'TaskIcons:board/task_footer');
     }
 
     public function getPluginName()
     {
         // Plugin Name MUST be identical to namespace for Plugin Directory to detect updated versions
         // Do not translate the plugin name here
-        return 'TagiKPTaskIcons';
+        return 'TaskIcons';
     }
 
     public function getPluginDescription()
@@ -36,7 +36,7 @@ class Plugin extends Base
 
     public function getPluginVersion()
     {
-        return '1.3.0';
+        return '1.4.0';
     }
 
     public function getCompatibleVersion()
@@ -50,6 +50,6 @@ class Plugin extends Base
 
     public function getPluginHomepage()
     {
-        return 'https://github.com/Tagirijus/TagiKPTaskIcons';
+        return 'https://github.com/Tagirijus/TaskIcons';
     }
 }
